@@ -41,7 +41,7 @@ namespace IdentityProject.DataAccessLayer.Repositories
             using var context = new Context();
             return context.Set<T>().ToList();
         }
-
+  
         // Yeni bir veri ekler
         public void Insert(T t)
         {
